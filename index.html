@@ -65,7 +65,8 @@
             </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-neutral-content"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-primary font-bold rounded-box w-28"
+              style="backdrop-filter: blur(8px)"
             >
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
@@ -74,7 +75,7 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-3xl font-extrabold"
+          <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold"
             >Hockey<span class="text-primary">&apos;</span>s</a
           >
         </div>
@@ -88,7 +89,9 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn bg-primary text-white">Button</a>
+          <a class="btn bg-primary text-sm md:text-base lg:text-base text-white"
+            >Get Ticket</a
+          >
         </div>
       </div>
       <!-- Navbar finished -->
@@ -119,42 +122,251 @@
       class="container mx-auto px-4 md:max-w-screen-lg md:px-8 lg:max-w-screen-xl lg:px-0"
     >
       <!-- Professional Hockeys Club -->
-      <section>
-        <div class="flex flex-col items-center border-dashed border-t border-b py-6 lg:py-16 mb-6 lg:mb-12">
-          <h3 class="text-4xl font-extrabold">Professional Hockeys Club</h3>
-          <p class="text-neutral-content max-w-2xl  text-center">
+      <section class="mb-24">
+        <div
+          class="flex flex-col items-center gap-4 lg:gap-6 border-dashed border-y border-t-slate-500 border-b-slate-500 py-6 lg:py-16 mb-6 lg:mb-12"
+        >
+          <h3 class="text-2xl lg:text-4xl font-extrabold">
+            Professional Hockeys Club
+          </h3>
+          <p
+            class="text-sm lg:text-base text-neutral-content max-w-2xl text-center"
+          >
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam
             turpis placerat dolor. Purus urna in sit nullam proin.
           </p>
         </div>
         <!-- Prayer facility -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-8">
-            <div class="flex flex-col items-center text-center gap-4">
-                <div class="radial-progress text-primary" style="--value:70;" role="progressbar">87%</div>
-                <h6>Prayer Facility</h6>
-                <p class="text-neutral-content">Amet consectetur. Condimentum dignissim adipiscing .</p>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-8"
+        >
+          <div class="flex flex-col items-center text-center gap-4">
+            <div
+              class="radial-progress text-primary"
+              style="--value: 70"
+              role="progressbar"
+            >
+              87%
             </div>
-            <!-- Experienced coach -->
-            <div class="flex flex-col items-center text-center gap-4">
-                <div class="radial-progress text-[#49D293]" style="--value:70;" role="progressbar">95%</div>
-                <h6>Experienced coach</h6>
-                <p class="text-neutral-content">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            <h6>Prayer Facility</h6>
+            <p class="text-neutral-content">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <!-- Experienced coach -->
+          <div class="flex flex-col items-center text-center gap-4">
+            <div
+              class="radial-progress text-[#49D293]"
+              style="--value: 70"
+              role="progressbar"
+            >
+              95%
             </div>
-            <!-- Senior Player -->
-            <div class="flex flex-col items-center text-center gap-4">
-                <div class="radial-progress text-[#FFB546]" style="--value:70;" role="progressbar">90%</div>
-                <h6>Senior Player</h6>
-                <p class="text-neutral-content">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            <h6>Experienced coach</h6>
+            <p class="text-neutral-content">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <!-- Senior Player -->
+          <div class="flex flex-col items-center text-center gap-4">
+            <div
+              class="radial-progress text-[#FFB546]"
+              style="--value: 70"
+              role="progressbar"
+            >
+              90%
             </div>
-            <!-- Training ground -->
-            <div class="flex flex-col items-center text-center gap-4">
-                <div class="radial-progress text-[#4C8DF1]" style="--value:70;" role="progressbar">80%</div>
-                <h6>Training ground</h6>
-                <p class="text-neutral-content">Amet consectetur. Condimentum dignissim adipiscing .</p>
+            <h6>Senior Player</h6>
+            <p class="text-neutral-content">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
+          <!-- Training ground -->
+          <div class="flex flex-col items-center text-center gap-4">
+            <div
+              class="radial-progress text-[#4C8DF1]"
+              style="--value: 70"
+              role="progressbar"
+            >
+              80%
             </div>
+            <h6>Training ground</h6>
+            <p class="text-neutral-content">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
+          </div>
         </div>
       </section>
       <!-- Professional Hockeys Club finished -->
+
+      <!-- Program Sections -->
+      <section>
+        <div
+          class="flex flex-col items-center gap-4 lg:gap-6 border-dashed border-y border-t-slate-500 border-b-slate-500 py-6 lg:py-16 mb-6 lg:mb-12"
+        >
+          <h3 class="text-2xl lg:text-4xl font-extrabold">
+            Professional Hockeys Club
+          </h3>
+          <p
+            class="text-sm lg:text-base text-neutral-content max-w-2xl text-center"
+          >
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
+          <!-- Junior Program -->
+          <div class="relative">
+            <img src="Images/2.png" alt="" class="w-full" />
+            <div
+              class="flex flex-col gap-4 max-w-md absolute bottom-3 left-5 lg:absolute lg:bottom-5 lg:left-8"
+            >
+              <h5 class="text-xl lg:text-3xl font-extrabold">Junior Program</h5>
+              <p
+                class="text-sm lg:text-base text-white font-medium max-w-sm lg:max-w-md"
+              >
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button class="relative -left-28 lg:-left-36">
+                <a
+                  class="btn border-0 bg-primary text-sm md:text-base lg:text-base text-white"
+                  >Register Now!</a
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Teenager Program -->
+          <div class="relative">
+            <img src="Images/3.png" alt="" class="w-full" />
+            <div
+              class="flex flex-col gap-4 max-w-md absolute bottom-3 left-5 lg:absolute lg:bottom-5 lg:left-8"
+            >
+              <h5 class="text-xl lg:text-3xl font-extrabold">
+                Teenager Program
+              </h5>
+              <p
+                class="text-sm lg:text-base text-white font-medium max-w-sm lg:max-w-md"
+              >
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button class="relative -left-28 lg:-left-36">
+                <a
+                  class="btn border-0 bg-primary text-sm md:text-base lg:text-base text-white"
+                  >Register Now!</a
+                >
+              </button>
+            </div>
+          </div>
+          <!-- Professional Program -->
+          <div class="relative col-span-2">
+            <img src="Images/4.png" alt="" class="w-full" />
+            <div
+              class="flex flex-col gap-4 max-w-2xl absolute bottom-3 left-5 lg:absolute lg:bottom-5 lg:left-8"
+            >
+              <h5 class="text-xl lg:text-3xl font-extrabold">
+                Professional Program
+              </h5>
+              <p
+                class="text-sm lg:text-base text-white font-medium max-w-sm lg:max-w-2xl"
+              >
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button class="relative -left-28 lg:-left-60">
+                <a
+                  class="btn border-0 bg-primary text-sm md:text-base lg:text-base text-white"
+                  >Register Now!</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Program Sections finished -->
+
+      <!-- FAQ section -->
+      <section class="my-24">
+        <div
+          class="flex flex-col items-center gap-4 lg:gap-6 border-dashed border-y border-t-slate-500 border-b-slate-500 py-6 lg:py-16 mb-6 lg:mb-12"
+        >
+          <h3 class="text-2xl lg:text-4xl font-extrabold">Clients Question</h3>
+          <p
+            class="text-sm lg:text-base text-neutral-content max-w-2xl text-center"
+          >
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <div class="hero border border-slate-500 rounded-2xl bg-base-200">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="Images/11.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  Our Equipment
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                    elit enim sagittis turpis in magna.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                  Hockey Training
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                    elit enim sagittis turpis in magna.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                  Private Lessons
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                  Ski Touring
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">Booking</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">Pricings</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ section finished-->
     </main>
     <!-- Footer -->
     <footer class="footer grid p-10 bg-neutral text-neutral-content">
